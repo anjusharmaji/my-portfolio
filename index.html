@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anju Sharma Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo1.jpeg" alt="Logo">
+        </div> 
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#message">Message me</a></li>
+            
+        </ul>
+    </nav>
+ 
+ <div class="content"></div> 
+    <div  id=home class="background-image">
+        <div class="text-container">
+            <p>Hello...</p>
+            <p>My name is <span class="highlight">Anju Sharma.</span></p>
+            <p>I am a developer</p>
+        </div>
+        </div>
+
+        <!-- ------------ about me ---------------------- -->
+        
+        <div id="about" class="about-container">
+            <div class="image-container">
+                <img src="images/student.jpg" alt="Anju Sharma">
+            </div>
+            <div class="about-section">
+                <h2>About Me</h2>
+                <p>Hello there! My name is Anju Sharma, and I am from the quaint town  Muradnagar in Ghaziabad. Currently,
+                     I am pursuing my B.Tech degree in Computer Science from Krishna Engineering College where i learn various language and technology. My academic journey started 
+                     at Kendriya Vidyalaya Muradnagar, where I completed my schooling in 2020.
+                    <br>
+
+                    
+                    
+                    Beyond the realm of technology, I find joy and fulfillment in various personal interests.
+                     Cooking allows me to unleash my creativity in the kitchen, while indulging in art and craft
+                      projects serves as a therapeutic escape. Music is another passion of mine, offering solace and 
+                      inspiration during both quiet moments and busy days.
+                      <br>
+                    
+                    In the near future, my aim is to achieve independence, both personally and professionally. However, 
+                    my ambitions extend far beyond that. Ultimately, I aspire to secure a position within a reputable 
+                    company, where I can contribute my skills and expertise while continuously growing and evolving in my field.
+                    
+                    Thank you for taking the time to learn a bit about me. 
+                     </p>
+            </div>
+        </div>
+   
+   <!-- ---------------------resume--------------- -->
+   <div id="resume" class="resume-section">
+    <div class="left-section">
+        <h2>Resume</h2>
+        <p>I am pleased to share my comprehensive resume with you</p>
+        <a href="resume.pdf" class="download-link">Download Resume</a>
+    </div>
+    <div class="right-section">
+        <img src="images/resume.jpg" alt="Image">
+    </div>
+</div>
+   
+
+
+      <div id="contact" class="contact-info">
+        <h1>Contact</h1>
+        <div class="contact-images">
+            <div class="contact-item">
+                
+                    <img src="images/location.jpeg" alt="Address">
+                </a>
+                <button class="btn"><a href="https://maps.app.goo.gl/51bC6jeigAdXq1jz6">Location</a></button>
+            </div>
+            <div class="contact-item">
+                
+                    <img src="images/phone.jpeg" alt="Phone Number">
+                </a>
+                <button class="btn"><a href="tel:9084365860">Phone Number</a></button>
+            </div>
+            <div class="contact-item">
+                
+                    <img src="images/email.jpeg" alt="Email">
+                </a>
+                <button class="btn"><a href="mailto:anjusharma53429@gmail.con">Email</a></button>
+            </div>
+        </div>
+    </div>
+    
+      
+
+       
+    
+    
+
+  <!-- ----------------message------------- -->
+
+  <div id="message" class="container">
+    <h1>Message Me:</h1>
+    <div class="form">
+        <form onsubmit="sendemail(); reset(); return false; ">
+      <div class="input-group">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="input-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="input-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="Message" rows="4"></textarea>
+      </div>
+      <button type="submit" class="submit-button">Submit</button>        
+    </div>
+    
+  </div>
+</div>
+
+  
+  <!-- --------------------------footer----------------------------- -->
+  <footer class="footer">
+    <p class="footer-text">Made with <span>	&#9825; </span>
+    <br>
+    
+    </p>
+  </footer>
+
+   
+
+
+
+
+    
+</body>
+</html>
